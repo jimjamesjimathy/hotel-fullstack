@@ -1,6 +1,6 @@
 .navbar {
     height: 7vh;
-    background-color: #555677;
+    background-color: #264653;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,10 @@
     color: #fff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.logo-wrap {
+    flex: 2;
 }
 .logo {
     font-weight: 500;
@@ -25,6 +29,31 @@
     font-weight: 600;
     letter-spacing: 1px;
     transition: all 350ms ease; 
+}
+.loggedIn-btn-box {
+    flex:.4;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.loggedIn-btn-box p {
+    color: #E9C46A;
+    margin-left: 5px;
+}
+.logout-btn {
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 350ms ease; 
+    color: white;
+}
+.box-text {
+    display: flex;
+}
+.logout-btn:hover {
+    color: #E84855;
 }
 .navButton:hover {
     background-color: #37A3D2;

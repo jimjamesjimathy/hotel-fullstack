@@ -10,11 +10,23 @@
   
   .featuredItem{
     position: relative;
-    color: white;
     border-radius: 10px;
     overflow: hidden;
     height: 250px;
-    flex:1
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex:1;
+    border: 3px solid #33C1B1;
+    text-align: center;
+  }
+
+  .featuredItem h1 {
+    font-size: 1.2rem;
+    
+  }
+  .featuredItem h2 {
+    font-size: 1rem;
   }
   
   .featuredImg{
@@ -25,6 +37,7 @@
   
   .featuredTitles{
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    background-color: #fff;
+    width: 100%;
+    color: #264653;
   }
